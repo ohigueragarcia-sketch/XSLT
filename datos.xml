@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="plantilla.xsl"?>
+<bibliotecas>
+  <biblioteca id="1">
+    <nombre>Biblioteca Pública Municipal Alameda</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Real, 12</direccion>
+    <cp>41001</cp>
+    <municipio>Sevilla</municipio>
+    <provincia>Sevilla</provincia>
+    <latitud>37.38863</latitud>
+    <longitud>-5.99534</longitud>
+    <telefono>955123456</telefono>
+    <email>biblio.alameda@sevilla.es</email>
+    <web>https://www.sevilla.org/bibliotecas/alameda</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="2">
+    <nombre>Biblioteca Pública Municipal de Málaga</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Av. Europa, 49</direccion>
+    <cp>29006</cp>
+    <municipio>Málaga</municipio>
+    <provincia>Málaga</provincia>
+    <latitud>36.721302</latitud>
+    <longitud>-4.421636</longitud>
+    <telefono>952112233</telefono>
+    <email>info@bibmalaga.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/malaga</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="3">
+    <nombre>Centro de Documentación Musical de Andalucía</nombre>
+    <tipo>Centro de Documentación</tipo>
+    <direccion>C/ Santa Paula, 1</direccion>
+    <cp>18001</cp>
+    <municipio>Granada</municipio>
+    <provincia>Granada</provincia>
+    <latitud>37.176487</latitud>
+    <longitud>-3.597929</longitud>
+    <telefono>958765432</telefono>
+    <email>cdma@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/centros/cdma</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="4">
+    <nombre>Biblioteca Pública del Estado - Córdoba</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Ronda de los Tejares, 44</direccion>
+    <cp>14008</cp>
+    <municipio>Córdoba</municipio>
+    <provincia>Córdoba</provincia>
+    <latitud>37.888175</latitud>
+    <longitud>-4.779383</longitud>
+    <telefono>957334455</telefono>
+    <email>bpe.cordoba@juntadeandalucia.es</email>
+    <web>https://www.culturaydeporte.gob.es/bpe/cordoba</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="5">
+    <nombre>Biblioteca Municipal Celestino Mutis</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>P.º Marítimo, 2</direccion>
+    <cp>11010</cp>
+    <municipio>Cádiz</municipio>
+    <provincia>Cádiz</provincia>
+    <latitud>36.527061</latitud>
+    <longitud>-6.288596</longitud>
+    <telefono>956778899</telefono>
+    <email>bmcadiz@cadiz.es</email>
+    <web>https://www.cadiz.es/bibliotecas/cmutis</web>
+    <horario>L-V 10:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="6">
+    <nombre>Biblioteca Pública de Jaén</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Pza. Santa María, s/n</direccion>
+    <cp>23002</cp>
+    <municipio>Jaén</municipio>
+    <provincia>Jaén</provincia>
+    <latitud>37.76574</latitud>
+    <longitud>-3.78996</longitud>
+    <telefono>953445566</telefono>
+    <email>bpe.jaen@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/jaen</web>
+    <horario>L-V 09:00-19:00</horario>
+  </biblioteca>
+  <biblioteca id="7">
+    <nombre>Biblioteca Provincial de Huelva</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Av. Alemania, 20</direccion>
+    <cp>21002</cp>
+    <municipio>Huelva</municipio>
+    <provincia>Huelva</provincia>
+    <latitud>37.257998</latitud>
+    <longitud>-6.949155</longitud>
+    <telefono>959223344</telefono>
+    <email>bpe.huelva@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/huelva</web>
+    <horario>L-V 09:00-19:00</horario>
+  </biblioteca>
+  <biblioteca id="8">
+    <nombre>Biblioteca Villaespesa</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Hermanos Machado, s/n</direccion>
+    <cp>4004</cp>
+    <municipio>Almería</municipio>
+    <provincia>Almería</provincia>
+    <latitud>36.841419</latitud>
+    <longitud>-2.468109</longitud>
+    <telefono>950112233</telefono>
+    <email>villaespesa@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/alm</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="9">
+    <nombre>Biblioteca Municipal de Ronda</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Armiñán, 37</direccion>
+    <cp>29400</cp>
+    <municipio>Ronda</municipio>
+    <provincia>Málaga</provincia>
+    <latitud>36.742</latitud>
+    <longitud>-5.1667</longitud>
+    <telefono>952445566</telefono>
+    <email>biblio@ronda.es</email>
+    <web>https://www.ronda.es/biblioteca</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="10">
+    <nombre>Biblioteca Pública Infanta Elena</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Av. María Luisa, 8</direccion>
+    <cp>41013</cp>
+    <municipio>Sevilla</municipio>
+    <provincia>Sevilla</provincia>
+    <latitud>37.372141</latitud>
+    <longitud>-5.98788</longitud>
+    <telefono>955998877</telefono>
+    <email>infantaelena@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/sevilla</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="101">
+    <nombre>Biblioteca Pública Municipal Alameda #1</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Real, 12</direccion>
+    <cp>41001</cp>
+    <municipio>Sevilla</municipio>
+    <provincia>Sevilla</provincia>
+    <latitud>37.39063</latitud>
+    <longitud>-5.9973399999999994</longitud>
+    <telefono>955123456</telefono>
+    <email>biblio.alameda@sevilla.es</email>
+    <web>https://www.sevilla.org/bibliotecas/alameda</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="202">
+    <nombre>Biblioteca Provincial de Málaga #2</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Av. Europa, 49</direccion>
+    <cp>29006</cp>
+    <municipio>Málaga</municipio>
+    <provincia>Málaga</provincia>
+    <latitud>36.725302</latitud>
+    <longitud>-4.425636</longitud>
+    <telefono>952112233</telefono>
+    <email>info@bibmalaga.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/malaga</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="303">
+    <nombre>Centro de Documentación Musical de Andalucía #3</nombre>
+    <tipo>Centro de Documentación</tipo>
+    <direccion>C/ Santa Paula, 1</direccion>
+    <cp>18001</cp>
+    <municipio>Granada</municipio>
+    <provincia>Granada</provincia>
+    <latitud>37.176487</latitud>
+    <longitud>-3.603929</longitud>
+    <telefono>958765432</telefono>
+    <email>cdma@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/centros/cdma</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="404">
+    <nombre>Biblioteca Pública del Estado - Córdoba #4</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Ronda de los Tejares, 44</direccion>
+    <cp>14008</cp>
+    <municipio>Córdoba</municipio>
+    <provincia>Córdoba</provincia>
+    <latitud>37.890175</latitud>
+    <longitud>-4.779383</longitud>
+    <telefono>957334455</telefono>
+    <email>bpe.cordoba@juntadeandalucia.es</email>
+    <web>https://www.culturaydeporte.gob.es/bpe/cordoba</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="505">
+    <nombre>Biblioteca Municipal Celestino Mutis #5</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>P.º Marítimo, 2</direccion>
+    <cp>11010</cp>
+    <municipio>Cádiz</municipio>
+    <provincia>Cádiz</provincia>
+    <latitud>36.531061</latitud>
+    <longitud>-6.290596</longitud>
+    <telefono>956778899</telefono>
+    <email>bmcadiz@cadiz.es</email>
+    <web>https://www.cadiz.es/bibliotecas/cmutis</web>
+    <horario>L-V 10:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="606">
+    <nombre>Biblioteca Pública de Jaén #6</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Pza. Santa María, s/n</direccion>
+    <cp>23002</cp>
+    <municipio>Jaén</municipio>
+    <provincia>Jaén</provincia>
+    <latitud>37.76574</latitud>
+    <longitud>-3.79396</longitud>
+    <telefono>953445566</telefono>
+    <email>bpe.jaen@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/jaen</web>
+    <horario>L-V 09:00-19:00</horario>
+  </biblioteca>
+  <biblioteca id="707">
+    <nombre>Biblioteca Provincial de Huelva #7</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Av. Alemania, 20</direccion>
+    <cp>21002</cp>
+    <municipio>Huelva</municipio>
+    <provincia>Huelva</provincia>
+    <latitud>37.259998</latitud>
+    <longitud>-6.955155</longitud>
+    <telefono>959223344</telefono>
+    <email>bpe.huelva@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/huelva</web>
+    <horario>L-V 09:00-19:00</horario>
+  </biblioteca>
+  <biblioteca id="808">
+    <nombre>Biblioteca Villaespesa #8</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Hermanos Machado, s/n</direccion>
+    <cp>4004</cp>
+    <municipio>Almería</municipio>
+    <provincia>Almería</provincia>
+    <latitud>36.845419</latitud>
+    <longitud>-2.468109</longitud>
+    <telefono>950112233</telefono>
+    <email>villaespesa@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/alm</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="909">
+    <nombre>Biblioteca Municipal de Ronda #9</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Armiñán, 37</direccion>
+    <cp>29400</cp>
+    <municipio>Ronda</municipio>
+    <provincia>Málaga</provincia>
+    <latitud>36.742</latitud>
+    <longitud>-5.168699999999999</longitud>
+    <telefono>952445566</telefono>
+    <email>biblio@ronda.es</email>
+    <web>https://www.ronda.es/biblioteca</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="1010">
+    <nombre>Biblioteca Pública Infanta Elena #10</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Av. María Luisa, 8</direccion>
+    <cp>41013</cp>
+    <municipio>Sevilla</municipio>
+    <provincia>Sevilla</provincia>
+    <latitud>37.374141</latitud>
+    <longitud>-5.991879999999999</longitud>
+    <telefono>955998877</telefono>
+    <email>infantaelena@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/sevilla</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="111">
+    <nombre>Biblioteca Pública Municipal Alameda #11</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Real, 12</direccion>
+    <cp>41001</cp>
+    <municipio>Sevilla</municipio>
+    <provincia>Sevilla</provincia>
+    <latitud>37.39263</latitud>
+    <longitud>-6.00134</longitud>
+    <telefono>955123456</telefono>
+    <email>biblio.alameda@sevilla.es</email>
+    <web>https://www.sevilla.org/bibliotecas/alameda</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="212">
+    <nombre>Biblioteca Provincial de Málaga #12</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>Av. Europa, 49</direccion>
+    <cp>29006</cp>
+    <municipio>Málaga</municipio>
+    <provincia>Málaga</provincia>
+    <latitud>36.721302</latitud>
+    <longitud>-4.421636</longitud>
+    <telefono>952112233</telefono>
+    <email>info@bibmalaga.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/bibliotecas/malaga</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="313">
+    <nombre>Centro de Documentación Musical de Andalucía #13</nombre>
+    <tipo>Centro de Documentación</tipo>
+    <direccion>C/ Santa Paula, 1</direccion>
+    <cp>18001</cp>
+    <municipio>Granada</municipio>
+    <provincia>Granada</provincia>
+    <latitud>37.178487000000004</latitud>
+    <longitud>-3.599929</longitud>
+    <telefono>958765432</telefono>
+    <email>cdma@juntadeandalucia.es</email>
+    <web>https://www.juntadeandalucia.es/cultura/centros/cdma</web>
+    <horario>L-V 09:00-14:00</horario>
+  </biblioteca>
+  <biblioteca id="414">
+    <nombre>Biblioteca Pública del Estado - Córdoba #14</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>C/ Ronda de los Tejares, 44</direccion>
+    <cp>14008</cp>
+    <municipio>Córdoba</municipio>
+    <provincia>Córdoba</provincia>
+    <latitud>37.892174999999995</latitud>
+    <longitud>-4.783383</longitud>
+    <telefono>957334455</telefono>
+    <email>bpe.cordoba@juntadeandalucia.es</email>
+    <web>https://www.culturaydeporte.gob.es/bpe/cordoba</web>
+    <horario>L-V 09:00-20:00</horario>
+  </biblioteca>
+  <biblioteca id="515">
+    <nombre>Biblioteca Municipal Celestino Mutis #15</nombre>
+    <tipo>Biblioteca</tipo>
+    <direccion>P.º Marítimo, 2</direccion>
+    <cp>11010</cp>
+    <municipio>Cádiz</municipio>
+    <provincia>Cádiz</provincia>
+    <latitud>36.527061</latitud>
+    <longitud>-6.294596</longitud>
+    <telefono>956778899</telefono>
+    <email>bmcadiz@cadiz.es</email>
+    <web>https://www.cadiz.es/bibliotecas/cmutis</web>
+    <horario>L-V 10:00-14:00</horario>
+  </biblioteca>
+</bibliotecas>

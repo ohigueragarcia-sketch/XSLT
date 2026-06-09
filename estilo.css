@@ -1,0 +1,254 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+.header-image {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url('interior-acogedor-de-estilo-anime-con-muebles.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-color: #7fa8c4;
+    padding: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #1a1a1a;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu_prov {
+    position: relative;
+}
+
+.enlace {
+    display: block;
+    padding: 15px 25px;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.enlace:hover,
+.enlace.active {
+    background-color: #5a8aa3;
+    color: white;
+    border-color: #2d2d2d;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d8e5ed;
+    list-style: none;
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #4a6b7f;
+    border-top: none;
+    z-index: 999;
+}
+
+.menu_prov:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    border-bottom: 1px solid #b0c4d0;
+}
+
+.submenu li:last-child {
+    border-bottom: none;
+}
+
+.submenu a {
+    display: block;
+    padding: 12px 20px;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.submenu a:hover {
+    background-color: #9bb9cf;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.biblioteca-card {
+    background: linear-gradient(to bottom, #a8c4d8 0%, #d8e5ed 50px, #f0f0f0 50px);
+    border: 2px solid #4a6b7f;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    scroll-margin-top: 65px;
+}
+
+.nombre-biblioteca {
+    background-color: #d8e5ed;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #1a1a1a;
+    border-bottom: 2px solid #4a6b7f;
+}
+
+.imagen-biblioteca {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.seccion-info {
+    background-color: #9bb9cf;
+    padding: 20px 25px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.seccion-info ul {
+    list-style: none;
+}
+
+.seccion-info li {
+    padding: 5px 0;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    background-color: #4a6b7f;
+}
+
+.scroll-buttons {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 1010;
+}
+
+.scroll-btn {
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px solid #4a6b7f;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .header-image {
+        height: 200px;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-image {
+        height: 150px;
+        font-size: 1.5em;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    #menu.active {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-image {
+        height: 120px;
+        font-size: 1.2em;
+    }
+}
